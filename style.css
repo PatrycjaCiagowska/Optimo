@@ -1,13 +1,10 @@
 html {
   font-family: "Open Sans";
-
   font-size: 30px;
 }
 
 body {
-
   background-color: black;
-  
 }
 
 #topbar {
@@ -26,6 +23,7 @@ body {
   border: 4px black solid;
   transition:0.5s ;
 }
+
 .kwadrat2 {
   margin-left: 5px;
   background-color: red;
@@ -39,13 +37,12 @@ body {
   display: flex;
   justify-content: space-between;
 } 
-.next2 {
 
+.next2 {
   margin-left: 0px;
   margin-top: 40px;
   display: flex;
   align-items: center;
-
 }
 
 .prostokat1 {
@@ -53,7 +50,6 @@ body {
   width: 100px;
   height: 10px;
   border: 4px black solid;
-
 }
 
 .prostokat2 {
@@ -62,8 +58,8 @@ body {
   height: 10px;
   border: 4px black solid;
   margin-top: 20px;
-
 }
+
 .kolo {
   background-color: #008080;
   width: 80px;
@@ -92,8 +88,8 @@ body {
   padding-top: 10px;
   text-align: center;
   justify-content: space-evenly;
-
 }
+
 .container {
   padding: 20px;
   margin-top: 10px;
@@ -101,13 +97,11 @@ body {
   justify-content: space-evenly;
   flex-direction: row;
   background-color: #008000;
-
 }
 
 .divB {
   display: flex;
   flex-direction: column;
-  /* This makes div1 and div2 stack vertically */
 }
 
 @media screen and (max-width: 900px) and (min-width: 583px) {
@@ -160,3 +154,15 @@ body {
     transition: background 2s;
   }
 }
+
+.kwadrat2:hover {
+  background-color: Thistle;
+  max-width: 20vw;
+  transform: scale(1.2);
+  }
+
+.kwadrat1:hover {
+  background-color: Thistle;
+  max-width: 20vw;
+  transform: scale(1.2);
+  }
