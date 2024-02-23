@@ -79,7 +79,6 @@ body {
   justify-content: space-evenly;
   flex-direction: row;
   background-color: #008000;
-
 }
 
 .next2 {
@@ -87,11 +86,7 @@ body {
   margin-top: 40px;
   display: flex;
   align-items: center;
-
 }
-
-
-
 
 .abc {
   margin-top: 0px;
@@ -103,4 +98,43 @@ body {
   text-align: center;
   justify-content: space-evenly;
 
+}
+
+.divB {
+  display: flex;
+  flex-direction: column;
+  /* This makes div1 and div2 stack vertically */
+}
+
+@media screen and (max-width: 900px) and (min-width: 583px) {
+  .container {
+    flex-direction: row;
+  }
+  .divB {
+    flex-direction: column;
+  }
+  .abc {
+    background-color: #c83737;
+    
+    
+  }
+
+@media screen and (max-width: 583px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .abc {
+    background-color: blue;
+
+
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .container {
+    flex-direction: row;
+
+  }
 }
