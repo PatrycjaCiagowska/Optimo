@@ -68,7 +68,30 @@ body {
   border: 4px black solid;
   margin-left: 20px;
   margin-right: 10px;
+} 
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #008000;
+
 }
+
+.next2 {
+  margin-left: 0px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
 
 .abc {
   margin-top: 0px;
