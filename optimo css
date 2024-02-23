@@ -24,7 +24,7 @@ body {
   margin-left: 110px;
   margin-right: 100px;
   border: 4px black solid;
-
+  transition:0.5s ;
 }
 .kwadrat2 {
   margin-left: 5px;
@@ -33,6 +33,7 @@ body {
   height: 100px;
   transform: rotate(45deg);
   border: 4px black solid;
+  transition:0.5s ;
 }
 .container {
   display: flex;
@@ -118,9 +119,23 @@ body {
   }
   .abc {
     background-color: #c83737;
-    
+    transition: background 2s;
    } 
   }
+
+@media screen and (max-width: 900px) and (min-width: 583px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .divB {
+    flex-direction: column;
+  }
+  .abc {
+    background-color: #c83737;
+    transition: background 2s;
+  }
+}
 
 @media screen and (max-width: 583px) {
   .container {
@@ -129,15 +144,19 @@ body {
   }
   .abc {
     background-color: blue;
-
-
+    transition: background 2s;
   }
 }
 
 @media screen and (min-width: 900px) {
-
   .container {
     flex-direction: row;
-
+  }
+  .divB {
+    flex-direction: row;
+  }
+   .abc {
+    background-color: white;
+    transition: background 2s;
   }
 }
