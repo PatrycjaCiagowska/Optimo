@@ -16,15 +16,6 @@ body {
   margin-top: 5px;
 }
 
-.container {
-  padding: 20px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  background-color: #008000;
-
-}
 .kwadrat1 {
   background-color: red;
   width: 100px;
@@ -42,6 +33,18 @@ body {
   height: 100px;
   transform: rotate(45deg);
   border: 4px black solid;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+} 
+.next2 {
+
+  margin-left: 0px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+
 }
 
 .prostokat1 {
@@ -71,21 +74,12 @@ body {
 } 
 
 .container {
-  display: flex;
-  justify-content: space-between;
   padding: 20px;
   margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   background-color: #008000;
-}
-
-.next2 {
-  margin-left: 0px;
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
 }
 
 .abc {
@@ -97,6 +91,15 @@ body {
   padding-top: 10px;
   text-align: center;
   justify-content: space-evenly;
+
+}
+.container {
+  padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #008000;
 
 }
 
@@ -116,7 +119,7 @@ body {
   .abc {
     background-color: #c83737;
     
-    
+   } 
   }
 
 @media screen and (max-width: 583px) {
